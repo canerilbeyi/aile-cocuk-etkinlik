@@ -474,6 +474,9 @@ Hero
   display: flex;
   column-gap: 1.5rem;
 }
+.second-header a {
+  color: var(--clr-primary-3);
+}
 .footer-logo {
   width: 115px;
 }
