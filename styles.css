@@ -54,6 +54,7 @@ ul {
 a {
   text-decoration: none;
   font-family: var(--ff-primary);
+  text-transform: capitalize;
 }
 img {
   display: block;
@@ -332,6 +333,11 @@ Hero
     background-size: auto;
   }
 }
+@media screen and (min-width: 1920px) {
+  .hero {
+    background-position: 50% 50%;
+  }
+}
 
 @media screen and (min-width: 1170px) {
   .title {
@@ -402,6 +408,9 @@ Hero
     right: 65px;
     width: 40%;
   }
+  .other-events-page {
+    margin-top: 12rem;
+  }
 }
 .round-slider {
   display: flex;
@@ -421,7 +430,7 @@ Hero
   cursor: pointer;
 }
 .active {
-  background: #ab023e;
+  background: var(--clr-primary-1);
 }
 /* FOOTER */
 .footer {
@@ -480,12 +489,12 @@ Hero
   border-top: 2px solid #cdcdcd;
 }
 .footer-mail {
-  color: #ab023e;
+  color: var(--clr-primary-1);
   font-weight: bold;
 }
 .footer-info {
   display: flex;
   justify-content: space-between;
-  color: #8d8d8d;
+  color: var(--clr-primary-3);
   margin-top: 26px;
 }
